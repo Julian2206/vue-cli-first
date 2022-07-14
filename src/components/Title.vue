@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="message">
     {{ msg }}
   </div>
 </template>
@@ -14,9 +14,9 @@ export default {
 </script>
 
 <style lang="scss">
-div {
-  color: royalblue;
-  font-size: 25px;
+.message {
+  color: yellowgreen;
+  font-size: 35px;
   font-weight: bold;
 }
 </style>
